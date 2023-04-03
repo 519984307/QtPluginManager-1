@@ -6,13 +6,10 @@
 
 #define PluginInterface_iid "org.plugins/1.0"
 
-class IPlugin : public QObject
+class IPlugin
 {
 public:
-    Q_OBJECT
-
-public:
-    virtual ~IPlugin() = 0;
+    virtual ~IPlugin() = default;
 
     virtual QString getName() = 0;
 };

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>1139</width>
+    <height>609</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,18 +19,18 @@
      <rect>
       <x>10</x>
       <y>30</y>
-      <width>381</width>
-      <height>491</height>
+      <width>571</width>
+      <height>501</height>
      </rect>
     </property>
    </widget>
    <widget class="QListWidget" name="loadedList">
     <property name="geometry">
      <rect>
-      <x>400</x>
+      <x>590</x>
       <y>30</y>
-      <width>391</width>
-      <height>491</height>
+      <width>531</width>
+      <height>501</height>
      </rect>
     </property>
    </widget>
@@ -39,25 +39,25 @@
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>53</width>
+      <width>111</width>
       <height>17</height>
      </rect>
     </property>
     <property name="text">
-     <string>Located:</string>
+     <string>Located files:</string>
     </property>
    </widget>
    <widget class="QLabel" name="loadedLabel">
     <property name="geometry">
      <rect>
-      <x>400</x>
+      <x>590</x>
       <y>10</y>
-      <width>53</width>
+      <width>121</width>
       <height>17</height>
      </rect>
     </property>
     <property name="text">
-     <string>Loaded:</string>
+     <string>Loaded plugins:</string>
     </property>
    </widget>
   </widget>
@@ -66,7 +66,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>1139</width>
      <height>22</height>
     </rect>
    </property>

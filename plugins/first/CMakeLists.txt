@@ -4,7 +4,6 @@ set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTORCC ON)
 
 set (HEADERS
-    iplugin.h
     firstplugin.h
 )
 
