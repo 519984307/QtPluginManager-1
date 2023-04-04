@@ -11,7 +11,9 @@ class IPlugin
 public:
     virtual ~IPlugin() = default;
 
-    virtual QString getName() = 0;
+    virtual QString getName() const = 0;
+
+    virtual int getId() const = 0;
 };
 
 Q_DECLARE_INTERFACE(IPlugin, PluginInterface_iid)

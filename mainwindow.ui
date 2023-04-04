@@ -24,16 +24,6 @@
      </rect>
     </property>
    </widget>
-   <widget class="QListWidget" name="loadedList">
-    <property name="geometry">
-     <rect>
-      <x>590</x>
-      <y>30</y>
-      <width>531</width>
-      <height>501</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QLabel" name="locatedLabel">
     <property name="geometry">
      <rect>
@@ -58,6 +48,16 @@
     </property>
     <property name="text">
      <string>Loaded plugins:</string>
+    </property>
+   </widget>
+   <widget class="QListView" name="loadedPluginsListView">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>30</y>
+      <width>541</width>
+      <height>501</height>
+     </rect>
     </property>
    </widget>
   </widget>

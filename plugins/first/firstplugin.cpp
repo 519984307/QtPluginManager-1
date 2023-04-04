@@ -7,7 +7,12 @@ FirstPlugin::~FirstPlugin()
     qWarning() << " delete first plugin";
 }
 
-QString FirstPlugin::getName()
+QString FirstPlugin::getName() const
 {
     return name;
+}
+
+int FirstPlugin::getId() const
+{
+    return pluginId;
 }

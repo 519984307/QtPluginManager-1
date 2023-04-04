@@ -16,10 +16,14 @@ public:
     SecondPlugin()          = default;
     virtual ~SecondPlugin() = default;
 
-    QString getName() override;
+    QString getName() const override;
+
+    int getId() const override;
 
 private:
     QString name = "Second Plugin";
+
+    const int pluginId = 2;
 };
 
 #endif

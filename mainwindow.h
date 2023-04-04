@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <QPluginLoader>
+#include <QStandardItemModel>
 
 #include <plugins/core/iplugin.h>
 
@@ -26,11 +27,16 @@ private:
 
     void addWrongFiles(QString pluginFileName);
 
-    void addLoadedPlugin(QString pluginFileName);
+    void addLoadedPlugin(const IPlugin *plugin, QString filename);
+
+private slots:
+    void displayFilename(const QModelIndex &current, const QModelIndex &previous);
 
 private:
     Ui::MainWindow *ui;
 
     std::unique_ptr<std::vector<std::unique_ptr<IPlugin>>> plugins;
+
+    std::unique_ptr<QStandardItemModel> loadedPluginsModel;
 };
 #endif // MAINWINDOW_H
